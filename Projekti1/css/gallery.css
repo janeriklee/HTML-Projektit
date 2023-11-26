@@ -1,0 +1,39 @@
+.image-container {
+    margin-right: -1em;
+}
+
+.gallery {
+    text-align: left;
+    margin-left: 24em;
+    overflow: hidden;
+}
+
+.gallery img {
+    max-width: 35.87em;
+    height: auto;
+    overflow: hidden;
+}
+
+.controls {
+    position: absolute;
+    top: 17.2em;
+    left: 25.3em;
+    width: 139em;
+    padding: 0%; /* Adjust the padding as needed */
+    overflow: hidden
+}
+
+
+.btn {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    font-size: 1.0em;
+    cursor: pointer;
+    border-radius: 50%; /* Make the button circular */
+    width: 2.5em; /* Set a fixed width for the circular button */
+    height: 2.5em; /* Set a fixed height for the circular button */
+    margin-right: 28em;
+    overflow: hidden; /* Hide overflowing content */
+}
+

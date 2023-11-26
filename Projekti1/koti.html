@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
     <link rel="stylesheet" href="css/koti.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="icon" href="instagram.png" type="image/png">
+    <script src="js/gallery.js"></script>
     <title>True Horror Movie Reviews</title>
 </head>
 <body>
@@ -23,6 +26,29 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+
+    <div class="socials">
+        <p>Trending now:</p>
+    </div>
+
+    <div class="gallery">
+        <div class="image-container">
+            <img id="galleryImage" alt="Coming Soon Movie">
+            <a href="your-link-url.html">
+            <img src="suosittelu.png" alt="Additional Image">
+            </a>
+            <div class="comingsoon">
+                <p>Coming soon..</p>
+            </div>
+            <div class="werecommend">
+                <p>Our favourite</p>
+            </div>
+        </div>
+        <div class="controls">
+            <button class="btn" onclick="prevImage()">&larr;</button>
+            <button class="btn" onclick="nextImage()">&rarr;</button>
+        </div>
+    </div>
 
 </body>
 </html>
