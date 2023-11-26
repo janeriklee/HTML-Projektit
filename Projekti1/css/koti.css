@@ -92,3 +92,35 @@ body {
     padding: 0.1em;
     margin-left: 0.5em;
 }
+
+.popularYear {
+    margin-top: 4em;
+    margin-left: 24em;
+    background-color: red;
+    margin-right: 24em;
+}
+
+.popularYear p {
+    font-size: 1.2em; 
+    font-family: "Oswald", serif;
+    font-weight: bold;
+    margin-left: 0.5em;
+}
+
+.elokuvat {
+    text-align: left;
+    margin-top: -0.2em;
+    margin-left: 24.28em;
+    overflow: hidden;
+}
+
+.elokuvat img {
+    max-width: 11.7em;
+    height: auto;
+    overflow: hidden;
+    border-radius: 0.5em;
+}
+
+.elokuvat a {
+    color: white;
+}
